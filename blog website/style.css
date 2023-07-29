@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}  
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+nav .left{
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;  
+}
+
+nav ul li a:hover{
+   color: lavender; 
+   font-size: 1.06rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+.centered form {
+  width: 450px;
+  margin: auto;
+  
+}
+
+.centered input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+
+.centered.search {
+  width: 80%;
+}
+
+.centered.submit {
+  width: 90px;
+  background-color: #1c87c9;
+  color: #ffffff;
+}
+.description{
+    font-size: 18px;
+    text-align: left;
+    margin: 8px 30px ;
+
+}
+p{
+    margin: 5px 50px 5px 50px;
+}
+
+.column {
+   
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+ .row {margin: 0 -2px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    .column {
+      max-width: 362px;
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+     
+    }
+  .card {
+    margin-top: 30px;
+    height: 410px;
+    box-shadow: 0 4px 8px 0 rgba(20, 19, 19, 0.2);
+    padding: 16px;
+    text-align: justify;
+    background-color: #eeeded;
+    margin-bottom: 30px;
+    
+  }
+  .card:hover{
+    height: 405px;
+  }
+  .column .card h2{
+    text-align: center;
+}
+.column .card img{
+    height: 150px;
+    width: 330px;
+}
+.column .card p{
+   font-size: 12px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 50px;
+  }
+  .footer img{
+    height: 20px;
+  }
+ 
